@@ -19,9 +19,16 @@
 		6F5ECCF916F7606A0049C214 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5ECCF816F7606A0049C214 /* Default@2x.png */; };
 		6F5ECCFB16F7606A0049C214 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F5ECCFA16F7606A0049C214 /* Default-568h@2x.png */; };
 		6F5ECCFE16F7606A0049C214 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5ECCFC16F7606A0049C214 /* MainStoryboard.storyboard */; };
-		6F5ECD0016F7606A0049C214 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6F5ECCFF16F7606A0049C214 /* Shader.fsh */; };
-		6F5ECD0216F7606A0049C214 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6F5ECD0116F7606A0049C214 /* Shader.vsh */; };
-		6F5ECD0516F7606A0049C214 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ECD0416F7606A0049C214 /* ViewController.m */; };
+		6F5ECD0516F7606A0049C214 /* EXGLViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ECD0416F7606A0049C214 /* EXGLViewController.mm */; };
+		6F5ECD4116F765690049C214 /* MatrixStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ECD2C16F765690049C214 /* MatrixStack.cpp */; };
+		6F5ECD4216F765690049C214 /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ECD2F16F765690049C214 /* Model.cpp */; };
+		6F5ECD4416F765690049C214 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ECD3316F765690049C214 /* Shape.cpp */; };
+		6F5ECD4916F765690049C214 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ECD3F16F765690049C214 /* Shader.cpp */; };
+		6F5ECD4F16F76AAA0049C214 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6F5ECD4D16F76AAA0049C214 /* Shader.fsh */; };
+		6F5ECD5016F76AAA0049C214 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6F5ECD4E16F76AAA0049C214 /* Shader.vsh */; };
+		6F995F5B16FC79D8008DDEAB /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F995F5A16FC79D8008DDEAB /* GameViewController.mm */; };
+		6FBA690816FB31A300C0947E /* EXScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FBA690616FB31A300C0947E /* EXScene.cpp */; };
+		6FBA691116FB554D00C0947E /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FBA690F16FB554D00C0947E /* GameScene.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,10 +48,27 @@
 		6F5ECCF816F7606A0049C214 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6F5ECCFA16F7606A0049C214 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6F5ECCFD16F7606A0049C214 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6F5ECCFF16F7606A0049C214 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
-		6F5ECD0116F7606A0049C214 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		6F5ECD0316F7606A0049C214 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6F5ECD0416F7606A0049C214 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F5ECD0316F7606A0049C214 /* EXGLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EXGLViewController.h; sourceTree = "<group>"; };
+		6F5ECD0416F7606A0049C214 /* EXGLViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = EXGLViewController.mm; sourceTree = "<group>"; };
+		6F5ECD2C16F765690049C214 /* MatrixStack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixStack.cpp; sourceTree = "<group>"; };
+		6F5ECD2D16F765690049C214 /* MatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixStack.h; sourceTree = "<group>"; };
+		6F5ECD2F16F765690049C214 /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Model.cpp; sourceTree = "<group>"; };
+		6F5ECD3016F765690049C214 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		6F5ECD3316F765690049C214 /* Shape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shape.cpp; sourceTree = "<group>"; };
+		6F5ECD3416F765690049C214 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		6F5ECD3D16F765690049C214 /* RenderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RenderController.h; sourceTree = "<group>"; };
+		6F5ECD3F16F765690049C214 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		6F5ECD4016F765690049C214 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		6F5ECD4B16F765D90049C214 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		6F5ECD4D16F76AAA0049C214 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		6F5ECD4E16F76AAA0049C214 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		6F995F5916FC79D8008DDEAB /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		6F995F5A16FC79D8008DDEAB /* GameViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
+		6FBA690616FB31A300C0947E /* EXScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EXScene.cpp; sourceTree = "<group>"; };
+		6FBA690716FB31A300C0947E /* EXScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXScene.h; sourceTree = "<group>"; };
+		6FBA690F16FB554D00C0947E /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
+		6FBA691016FB554D00C0947E /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		6FBA691216FB55CB00C0947E /* EngineX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EngineX.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,13 +119,13 @@
 		6F5ECCEA16F7606A0049C214 /* EngineX */ = {
 			isa = PBXGroup;
 			children = (
+				6FBA690E16FB554D00C0947E /* Game */,
+				6F5ECD2A16F765690049C214 /* Core */,
 				6F5ECCF316F7606A0049C214 /* AppDelegate.h */,
 				6F5ECCF416F7606A0049C214 /* AppDelegate.m */,
 				6F5ECCFC16F7606A0049C214 /* MainStoryboard.storyboard */,
-				6F5ECCFF16F7606A0049C214 /* Shader.fsh */,
-				6F5ECD0116F7606A0049C214 /* Shader.vsh */,
-				6F5ECD0316F7606A0049C214 /* ViewController.h */,
-				6F5ECD0416F7606A0049C214 /* ViewController.m */,
+				6F5ECD0316F7606A0049C214 /* EXGLViewController.h */,
+				6F5ECD0416F7606A0049C214 /* EXGLViewController.mm */,
 				6F5ECCEB16F7606A0049C214 /* Supporting Files */,
 			);
 			path = EngineX;
@@ -119,6 +143,87 @@
 				6F5ECCFA16F7606A0049C214 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F5ECD2A16F765690049C214 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6FBA691216FB55CB00C0947E /* EngineX.h */,
+				6F5ECD2B16F765690049C214 /* Matrix */,
+				6F5ECD2E16F765690049C214 /* Model */,
+				6F5ECD3B16F765690049C214 /* RenderController */,
+				6F5ECD3E16F765690049C214 /* Shader */,
+				6F5ECD4C16F76AAA0049C214 /* Resources */,
+				6F5ECD4A16F765D90049C214 /* Other */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6F5ECD2B16F765690049C214 /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				6F5ECD2C16F765690049C214 /* MatrixStack.cpp */,
+				6F5ECD2D16F765690049C214 /* MatrixStack.h */,
+			);
+			path = Matrix;
+			sourceTree = "<group>";
+		};
+		6F5ECD2E16F765690049C214 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F5ECD2F16F765690049C214 /* Model.cpp */,
+				6F5ECD3016F765690049C214 /* Model.h */,
+				6F5ECD3316F765690049C214 /* Shape.cpp */,
+				6F5ECD3416F765690049C214 /* Shape.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F5ECD3B16F765690049C214 /* RenderController */ = {
+			isa = PBXGroup;
+			children = (
+				6F5ECD3D16F765690049C214 /* RenderController.h */,
+				6FBA690616FB31A300C0947E /* EXScene.cpp */,
+				6FBA690716FB31A300C0947E /* EXScene.h */,
+			);
+			path = RenderController;
+			sourceTree = "<group>";
+		};
+		6F5ECD3E16F765690049C214 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				6F5ECD3F16F765690049C214 /* Shader.cpp */,
+				6F5ECD4016F765690049C214 /* Shader.h */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
+		6F5ECD4A16F765D90049C214 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6F5ECD4B16F765D90049C214 /* common.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6F5ECD4C16F76AAA0049C214 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F5ECD4D16F76AAA0049C214 /* Shader.fsh */,
+				6F5ECD4E16F76AAA0049C214 /* Shader.vsh */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6FBA690E16FB554D00C0947E /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				6F995F5916FC79D8008DDEAB /* GameViewController.h */,
+				6F995F5A16FC79D8008DDEAB /* GameViewController.mm */,
+				6FBA690F16FB554D00C0947E /* GameScene.cpp */,
+				6FBA691016FB554D00C0947E /* GameScene.h */,
+			);
+			path = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,13 +277,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F5ECD4F16F76AAA0049C214 /* Shader.fsh in Resources */,
+				6F5ECD5016F76AAA0049C214 /* Shader.vsh in Resources */,
 				6F5ECCEF16F7606A0049C214 /* InfoPlist.strings in Resources */,
 				6F5ECCF716F7606A0049C214 /* Default.png in Resources */,
 				6F5ECCF916F7606A0049C214 /* Default@2x.png in Resources */,
 				6F5ECCFB16F7606A0049C214 /* Default-568h@2x.png in Resources */,
 				6F5ECCFE16F7606A0049C214 /* MainStoryboard.storyboard in Resources */,
-				6F5ECD0016F7606A0049C214 /* Shader.fsh in Resources */,
-				6F5ECD0216F7606A0049C214 /* Shader.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +296,14 @@
 			files = (
 				6F5ECCF116F7606A0049C214 /* main.m in Sources */,
 				6F5ECCF516F7606A0049C214 /* AppDelegate.m in Sources */,
-				6F5ECD0516F7606A0049C214 /* ViewController.m in Sources */,
+				6F5ECD0516F7606A0049C214 /* EXGLViewController.mm in Sources */,
+				6F5ECD4116F765690049C214 /* MatrixStack.cpp in Sources */,
+				6F5ECD4216F765690049C214 /* Model.cpp in Sources */,
+				6F5ECD4416F765690049C214 /* Shape.cpp in Sources */,
+				6F5ECD4916F765690049C214 /* Shader.cpp in Sources */,
+				6FBA690816FB31A300C0947E /* EXScene.cpp in Sources */,
+				6FBA691116FB554D00C0947E /* GameScene.cpp in Sources */,
+				6F995F5B16FC79D8008DDEAB /* GameViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +426,7 @@
 				6F5ECD0A16F7606A0049C214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

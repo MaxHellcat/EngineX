@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Model::draw():Model.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "stack">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RenderController::addModel(Model*):RenderController.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "_activeScene">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
